@@ -1,0 +1,53 @@
+.navbar {
+    height: 100px;
+    background-color: #003580;
+    display: flex;
+    justify-content: center;
+}
+
+.navContainer {
+    width: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navMenu {
+    display: flex;
+    gap: 40px;
+}
+
+.navListMenu {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 20px;
+
+}
+.navListMenu:hover {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgb(38, 41, 84);
+
+}
+
+.menu {
+    font-size: 10px;
+}
+.logo{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.linkbooking{
+    color: white;
+}
